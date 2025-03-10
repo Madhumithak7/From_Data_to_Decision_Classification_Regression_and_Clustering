@@ -5,6 +5,20 @@
 Dataset: diamonds.csv
 Variable to be Predict Y= “Price”
 
+## Dataset
+The report is based on the following dataset:
+- **Columns:**
+  - `satisfaction_level`: Employee satisfaction score (0-1).
+  - `last_evaluation`: Last performance evaluation score (0-1).
+  - `number_project`: Number of projects assigned to the employee.
+  - `average_montly_hours`: Average monthly hours worked.
+  - `time_spend_company`: Years spent in the company.
+  - `Work_accident`: Whether the employee had a work accident (1 = yes, 0 = no).
+  - `left`: Whether the employee left the company (1 = yes, 0 = no).
+  - `promotion_last_5years`: Whether the employee was promoted in the last 5 years (1 = yes, 0 = no).
+  - `Department`: Employee department (e.g., Sales, HR, IT).
+  - `salary`: Employee salary level (low, medium, high).
+
 ### Classification - IBM_HR_analytics and employee attrition:
 
 Dataset: HR_comma_sep.csv
@@ -40,4 +54,26 @@ Variable to be Predict Y= “Left”
 2) Hierarchical Clustering
 3) DBScan Clustering
 4) Reduced Dataset Clustering
-   
+
+### Power BI report
+# Power BI Report: Employee Turnover Analysis
+
+## Overview
+This Power BI report provides insights into employee turnover, satisfaction, and performance metrics. It is designed to help HR and management teams analyze factors influencing employee retention and make data-driven decisions.
+
+## Key Features
+- **Employee Turnover Analysis:** Visualize turnover rates by department, salary level, and tenure.
+- **Satisfaction Level Trends:** Analyze employee satisfaction across different groups.
+- **Performance Evaluation:** Compare employee performance (`last_evaluation`) with hours worked and satisfaction levels.
+- **Promotion Impact:** Track the impact of promotions on employee retention.
+- **Work Accident Analysis:** Visualize the distribution of work accidents and their impact on turnover.
+
+## Visualizations
+The report includes the following visualizations:
+1. **Employee Turnover by Department:** Stacked bar chart showing turnover rates across departments.
+2. **Satisfaction Level by Salary:** Clustered column chart comparing average satisfaction levels by salary.
+3. **Average Monthly Hours vs. Last Evaluation:** Scatter plot analyzing the relationship between hours worked and performance.
+4. **Number of Projects vs. Satisfaction Level:** Line chart showing how satisfaction changes with the number of projects.
+5. **Promotion Impact on Retention:** Donut chart visualizing the impact of promotions on turnover.
+6. **Work Accident Distribution:** Pie chart showing the proportion of employees involved in work accidents.
+
